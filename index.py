@@ -55,6 +55,8 @@ def ticket_speichern():
         entry_anliegen.delete("1.0", "end")
         combo_priorität.set("mittel")
 
+        print("neues ticket eingegangen!")
+
 
 
 fenster = tk.Tk()
